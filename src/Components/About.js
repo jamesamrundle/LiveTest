@@ -58,7 +58,7 @@ class About  extends Component {
 
                 <div className="download">
                     <p>
-                        <a href="../public/pika.png" className="button" download><button>Download Resume</button></a>
+                        <a href="../pika.png" className="button" download><button>Download Resume</button></a>
                     </p>
                 </div>
 

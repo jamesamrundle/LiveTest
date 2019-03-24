@@ -32,7 +32,7 @@ class App extends Component {
 // your app goes here
     submitData=(event)=>{
         event.preventDefault()
-        let state= this.state
+        
 
         let validated = true;
 
