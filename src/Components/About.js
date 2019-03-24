@@ -28,13 +28,13 @@ class About  extends Component {
     }
 
     render() {
-        let {bio,street,city,state,address,zip,phone,email,name,image, address0} = this.props.data;
+        let {bio,address,phone,email,name} = this.props.data;
         return (
             <section id="about" >
             <div className="grid">
 
                 <div className="pic">
-                <img className="profile-pic" src="../images/MYFACE.jpg" />
+                <img className="profile-pic" src="../images/MYFACE.jpg" alt="my beautiful personage" />
                 </div>
 
                 <div className="main-col">

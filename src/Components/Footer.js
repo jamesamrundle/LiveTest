@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 // import '../css/layout.css'
 
 
@@ -9,7 +9,7 @@ const Footer = () =>{
                 <div className="row">
                     <ul className="copyright">
                         <li>&copy; Copyright 2017 Henri Leroy </li>
-                        <li>Design by <a target="_blank" href="https://www.linkedin.com/in/letuscode/">Jason Williams</a></li>
+                        <li>Design by <a  href="https://www.linkedin.com/in/letuscode/">Jason Williams</a></li>
                     </ul>
 
                     <div id="go-top">

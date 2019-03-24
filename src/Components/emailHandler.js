@@ -1,11 +1,11 @@
-//import {creds} from "./creds"
+import {creds} from "./creds"
 
 const AWS = require('aws-sdk')
 
 
 
 
-const ses = new AWS.SES();
+const ses = new AWS.SES(creds);
 
 let message = {}
 
