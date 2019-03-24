@@ -14,10 +14,4 @@ deploy:
   github_token: $github_token
   local_dir: build
   on:
-branch: masterdeploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep-history: true
-  on:
-    branch: master
+branch: master
