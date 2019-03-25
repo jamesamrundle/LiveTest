@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../css/layout.css'
+import {MYFACE} from "../images/MYFACE.jpg"
 
 
 class About  extends Component {
@@ -34,7 +35,7 @@ class About  extends Component {
             <div className="grid">
 
                 <div className="pic">
-                <img className="profile-pic" src="../images/MYFACE.jpg" alt="my beautiful personage" />
+                <img className="profile-pic" src={MYFACE} alt="my beautiful personage" />
                 </div>
 
                 <div className="main-col">
