@@ -6,11 +6,11 @@ cache:
   - node_modules
 script:
   - npm clean
-  - npm test
   - npm run build
 deploy:
   provider: pages
   skip_cleanup: true
+  target-branch: gh-pages
   github_token: $github_token
   local_dir: build
   on:
