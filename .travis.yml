@@ -1,3 +1,4 @@
+
 language: node_js
 node_js:
   - "stable"
@@ -5,13 +6,12 @@ cache:
   directories:
   - node_modules
 script:
-  - npm clean
   - npm run build
 deploy:
-  verbose: true
   provider: pages
-  skip_cleanup: true
-  target-branch: gh-pages
-  github_token: $github_token
+  skip-cleanup: true
+  github-token: $github_token  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  local_dir: build
   on:
-branch: master
+    branch: master
