@@ -29,6 +29,7 @@ class About  extends Component {
     }
 
     render() {
+	console.log("env?",this.props.env);
         let {bio,address,phone,email,name} = this.props.data;
         return (
             <section id="about" >

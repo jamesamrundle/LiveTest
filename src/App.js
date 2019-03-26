@@ -53,7 +53,7 @@ class App extends Component {
     }
 
     render() {
-
+	console.log("env??1",this.props.env);
         return (
 
         <div className="App">

@@ -1,3 +1,3 @@
-export let creds = {accessKeyId: 'AKIAIQYRWCTQXA6VNAGQ',
-    secretAccessKey: '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',
+export let creds = {accessKeyId: 'AKIAJLE5ZWAITNLSE4CA',
+    secretAccessKey: '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',
     region: 'us-east-1'};
