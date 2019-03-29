@@ -53,10 +53,8 @@ class App extends Component {
     }
 
     render() {
-	prc1 = process.env.REACT_APP_EMAILJS_RECEIVER;
-	prc2 = process.env.REACT_APP_EMAILJS_TEMPLATEID;
-	prc3 = process.env.REACT_APP_EMAILJS_USERID;
-	console.log(prc1,prc2,prc3);
+	console.log(process.env)
+	console.log(process.env.NODE_ENV)
         return (
 
         <div className="App">
