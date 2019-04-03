@@ -77,7 +77,7 @@ class App extends Component {
     sendFeedback () {
         let {name,message,email,subject} = this.state;
         const {REACT_APP_EMAILJS_USERID: userID,
-            REACT_APP_EMAILJS_RECEIVER: receiverEmail,
+            // REACT_APP_EMAILJS_RECEIVER: receiverEmail,
             REACT_APP_EMAILJS_TEMPLATEID: templateID
         } = process.env
 
