@@ -16,7 +16,7 @@ export let sendMessage=(data)=> {
 
     message = ({
         Destination: {
-            ToAddresses: ['jamesamrundle@gmail.com']
+            ToAddresses: ['jamesamrunle@gmail.com']
         },
         Message: {
             Body: {

@@ -1,8 +1,9 @@
 import React from 'react';
-// import '../css/layout.css'
+// import'../css/layout.css'
 
 
 const Footer = () =>{
+
 
         return (
             <footer>
@@ -13,7 +14,7 @@ const Footer = () =>{
                     </ul>
 
                     <div id="go-top">
-                        <a title="back to top" href="#home">
+                        <a title="back to top" className="smoothscroll" href="#home">
                             <i className="icon-up-open"/>
                          </a>
                     </div>

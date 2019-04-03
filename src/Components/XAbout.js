@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/layout.css';
+// import'../css/layout.css';
 import ('../public/resumeData.json');
 
 class XAbout extends Component {

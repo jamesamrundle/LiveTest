@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../css/layout.css'
+// import'../css/layout.css'
 //import {MYFACE} from "../images/MYFACE.jpg"
 
 
@@ -37,6 +37,8 @@ class About  extends Component {
 
                 <div className="pic">
                 <img className="profile-pic" src={require("../images/MYFACE.jpg")} alt="my beautiful personage" />
+                <img className="profile-pic" src={"images/redhat.jpg"} alt="my beautiful personage" />
+
                 </div>
 
                 <div className="main-col">
@@ -52,19 +54,26 @@ class About  extends Component {
                         <span>{name}</span> <br />
                         <span>{address.street}</span> <br />
                         <span>{address.city} {address.state}, {address.zip}</span><br />
-                        <br/>
+                    </p>
+                    </div>
+                </div>
+                <div className="download down-col">
+                    <p>
+                        <a href={require("../pika.png")} className="button" download><i className="fa fa-download"/><span>Download Resume</span></a>
+                        <a href={"/resume.pdf"} className="button" download><button>Download Resume</button></a>
+                    </p>
+                </div>
+                    <div className="main-col">
+                        <p>
                         <span>{phone}</span><br />
                         <span>{email}</span><br />
                     </p>
+
+
+
                     </div>
 
-                <div className="download">
-                    <p>
-                        <a href="../pika.png" className="button" download><button>Download Resume</button></a>
-                    </p>
-                </div>
 
-            </div>
 
             </div>
             </section>

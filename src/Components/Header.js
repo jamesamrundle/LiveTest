@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import '../css/layout.css'
+// import'../css/layout.css'
+// import'../css/default.css'
 
 
 class Header extends Component {
@@ -13,10 +14,10 @@ class Header extends Component {
 
                 <nav id="nav-wrap">
                     <ul id="nav" className="nav">
-                        <li><a href="#home" className="smoothscroll" >home</a></li>
-                        <li><a href="#about" className="smoothscroll">about</a></li>
-                        <li><a href="#resume" className="smoothscroll">resume</a></li>
-                        <li><a href="#contact" className="smoothscroll">contact me</a></li>
+                        <li><a className="smoothscroll" href="#home" >home</a></li>
+                        <li><a className="smoothscroll" href="#about" >about</a></li>
+                        <li><a className="smoothscroll" href="#resume" >resume</a></li>
+                        <li><a className="smoothscroll" href="#contact" >contact me</a></li>
                     </ul>
                 </nav>
 

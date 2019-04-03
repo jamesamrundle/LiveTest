@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import '../css/layout.css'
+// import'../css/layout.css'
 
 
 
@@ -72,9 +72,9 @@ class Resume  extends Component {
 
                     <div className="main-col">
                         <div className="bars">
-                            <ul className="skills">
+                            <list className="skills">
                             {this.skills()}
-                            </ul>
+                            </list>
                         </div>
                     </div>
                 </div>

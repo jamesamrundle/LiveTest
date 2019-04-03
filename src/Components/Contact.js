@@ -1,6 +1,22 @@
 import React from "react";
+// import { UncontrolledAlert } from 'reactstrap';
 
 let Contact = (props) => {
+
+    let isError = () =>{
+        if(props.error){
+            return(
+                <div className="alert alert-danger alert-dismissible fade show main-col">
+
+                    <strong>Sending Error!!!</strong>  Failed to send feedback. Error : {props.error}
+                </div>
+            )
+        }
+        return null
+    }
+
+
+
     return(
 <section id="contact">
 
@@ -30,16 +46,15 @@ let Contact = (props) => {
                     <textarea cols="40" rows="15" placeholder="main message" required name="message" onChange={props.saveData} />
                 </div>
 
+                {isError()}
+
                 <button type="submit" className="submit" onClick={props.submitData} >Submit</button>
 
             </fieldset>
 
         </form>
 
-        <div id="message-warning"> Error boy</div>
-        <div id="message-success">
-            <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-        </div>
+
 
     </div>
 

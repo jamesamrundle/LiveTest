@@ -30,7 +30,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/techBackground.jpg) no-repeat top center;
+   background: #161415 url(../images/headerbackground.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -172,7 +172,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: #fdf;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -224,7 +224,7 @@ ul#nav li.current a { color: #8bc34a; }
     grid-column-end: 3;
 }
 
-#about .contact-details { width: 41.66667%; }
+#about .contact-details { width: 65.66667%; }
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
@@ -232,8 +232,8 @@ ul#nav li.current a { color: #8bc34a; }
 #about .main-col {
     padding-left: 10%;
     padding-right: 5%;
-    grid-column-start: 4;
-    grid-column-end: 7;}
+    grid-column-start: 5;
+    grid-column-end: 8;}
 #about .download .button {
    margin-top: 6px;
    background: #303131;
@@ -283,8 +283,8 @@ ul#nav li.current a { color: #8bc34a; }
     }
 #resume
 .main-col { padding-right: 10%;
-    grid-column-start: 4;
-    grid-column-end: 7;
+    grid-column-start: 5;
+    grid-column-end: 8;
     }
 
 .education, .work ,.skill {
