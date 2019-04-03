@@ -11,10 +11,12 @@ class Resume  extends Component {
 
 
         education = () => {return this.props.data.education.map( (school) =>{
+            let didGraduate = school.complete === true ? "Graduated : " +school.year : "Anticipated Graduation : " + school.year
             return(
                 <div key={school.name} >
                     <h3>{school.name}</h3>
-                    <p>{school.degreeAndGpa} {school.year}</p> <br/>
+                    <p>{school.degreeAndGpa} </p>
+                    <p>{didGraduate}</p>
                     <p> {school.description} </p>
                 </div>
             )
