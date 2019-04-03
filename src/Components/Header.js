@@ -27,7 +27,9 @@ class Header extends Component {
                     <h3> I'm a {address.city} based <span>{occupation}</span> who is {objective}</h3>
                 </div>
 
-
+                <p className="scrolldown">
+                    <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+                </p>
             </header>
         );
     }

@@ -59,8 +59,8 @@ class About  extends Component {
                 </div>
                 <div className="download down-col">
                     <p>
-                        <a href={require("../pika.png")} className="button" download><i className="fa fa-download"/><span>Download Resume</span></a>
-                        <a href={"/resume.pdf"} className="button" download><button>Download Resume</button></a>
+                        <a href={require("../resume.pdf")} className="button" download><i className="fa fa-download"/><span>Download Resume</span></a>
+                        <a href={process.env.PUBLIC_URL+"/resume.pdf"} className="button" download>Download Resume</a>
                     </p>
                 </div>
                     <div className="main-col">
