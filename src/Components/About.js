@@ -37,11 +37,11 @@ class About  extends Component {
 
                 <div className="pic">
                 <img className="profile-pic" src={require("../images/MYFACE.jpg")} alt="my beautiful personage" />
-                <img className="profile-pic" src={"images/redhat.jpg"} alt="my beautiful personage" />
+                {/*<img className="profile-pic" src={"images/redhat.jpg"} alt="my beautiful personage" />*/}
 
                 </div>
 
-                <div className="main-col">
+                < div className="main-col">
 
 
                     <h2>About Me</h2>
@@ -56,16 +56,15 @@ class About  extends Component {
                         <span>{address.city} {address.state}, {address.zip}</span><br />
                     </p>
                     </div>
-                </div>
-                <div className="download down-col">
-                    <p>
-                        <a href={require("../resume.pdf")} className="button" download><i className="fa fa-download"/><span>Download Resume</span></a>
-                        <a href={process.env.PUBLIC_URL+"/resume.pdf"} className="button" download>Download Resume</a>
-                    </p>
-                </div>
-                    <div className="main-col">
+
+
+
+
+
+
                         <p>
-                        <span>{phone}</span><br />
+                        <span>{phone}</span><span style={{float:"right"}}><a href={process.env.PUBLIC_URL+"/resume.pdf"} className="button" download>
+                            <i className="fa fa-download"/><span>Download Resume</span></a></span><br />
                         <span>{email}</span><br />
                     </p>
 

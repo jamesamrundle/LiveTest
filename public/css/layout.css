@@ -67,10 +67,10 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #c7c7c7;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -174,7 +174,6 @@ ul#nav li a {
 	text-decoration: none;
    text-align: left;
    color: #fdf;
-
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
 	-o-transition: color .2s ease-in-out;
@@ -822,6 +821,12 @@ call-to-action .button {
    padding-top: 96px;
    padding-bottom: 102px;
    color: #FFFFFF;
+
+}
+
+#contact .grid{
+    display: grid;
+    grid-template-columns:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -842,7 +847,7 @@ call-to-action .button {
 	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
-   text-align: left;
+   /*text-align: left;*/
    float: left;
    color: #ebeeee;
 }
@@ -860,12 +865,15 @@ call-to-action .button {
 
 
 /* contact form */
-#contact form { margin-bottom: 30px; }
+#contact form {
+    grid-column-start: 3;
+    grid-column-end: 10;
+    margin-bottom: 30px; }
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
-	display: inline-block;
+	/*display: inline-block;*/
 	float: left;
    width: 26%;
 }

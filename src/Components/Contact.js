@@ -20,10 +20,13 @@ let Contact = (props) => {
     return(
 <section id="contact">
 
-    <p className="">feel free to contact me. ill return your message so we can keep in touch.</p>
 
-    <div className="">
+
+    <div className="grid">
+
         <form id="contact-form">
+            <p className="lead">Feel free to contact me. I'll return your message so we can keep in touch.</p>
+            <br/>
             <fieldset>
 
                 <div>
@@ -43,7 +46,7 @@ let Contact = (props) => {
 
                 <div>
                     <label>Message *</label>
-                    <textarea cols="40" rows="15" placeholder="main message" required name="message" onChange={props.saveData} />
+                    <textarea cols="40" rows="15" placeholder="main message"  name="message" onChange={props.saveData} />
                 </div>
 
                 {isError()}
