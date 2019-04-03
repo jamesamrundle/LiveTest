@@ -9,7 +9,7 @@ const Footer = () =>{
             <footer>
                 <div className="row">
                     <ul className="copyright">
-                        <li>&copy; Copyright 2017 Henri Leroy </li>
+                        <li>&copy; Copyright 2019 James A. M. Rundle </li>
                         <li>Design by <a  href="https://www.linkedin.com/in/letuscode/">Jason Williams</a></li>
                     </ul>
 
