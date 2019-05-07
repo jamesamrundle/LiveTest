@@ -72,6 +72,7 @@ class App extends Component {
                 error:errorMessage
             })
         }
+
     }
 
     sendFeedback () {
@@ -112,6 +113,7 @@ class App extends Component {
             <Resume data={data.resume} />
             <Contact saveData={this.saveData} submitData={this.submitData} error={this.state.error}/>
             <Footer />
+
         </div>
     );
   }

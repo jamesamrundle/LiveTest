@@ -11,17 +11,17 @@ class About  extends Component {
             name: "James Rundle",
             bio: "Hi " +
                 "I am " +
-                "James\n" +
-                "I like programming!\n" +
-                " 3 time semi-pro tummy-stick league champion, midwest division  U+1F60E",
+                "James Rundle\n" +
+                "Culinarian turned programmer, \n" +
+                "I specialize in Java and React and have an interest in Arduinos/Raspberry Pi for hardware level coding",
             address0:{
                 street: "123 Drury Lane",
                 city: "Seattle",
                 state: "Washington",
                 zip: "67460",
             },
-            address : { street : "123 Drury Lane",
-                        theRest : "Seatle, WA 12345"},
+            address : { street : "361 Arlington Drive",
+                        theRest : "Charleston, SC 29414"},
             phone: "111-222-3333",
             email: "jamesamrundle@gmail.com",
             image: "./images/MYFACE.jpg"
@@ -33,7 +33,7 @@ class About  extends Component {
         let {bio,address,phone,email,name} = this.props.data;
         return (
             <section id="about" >
-            <div className="grid">
+            <div className="">
 
                 <div className="pic">
                 <img className="profile-pic" src={require("../images/MYFACE.jpg")} alt="my beautiful personage" />
@@ -53,18 +53,18 @@ class About  extends Component {
                     <p>
                         <span>{name}</span> <br />
                         <span>{address.street}</span> <br />
-                        <span>{address.city} {address.state}, {address.zip}</span><br />
+                        <span>{address.city} {address.state}, {address.zip}</span>
                     </p>
                     </div>
 
 
-
+                    <span style={{float:"right"}}><a href={process.env.PUBLIC_URL+"/resume.pdf"} className="button" download>
+                            <i className="fa fa-download"/><span>Download Resume</span></a></span><br />
 
 
 
                         <p>
-                        <span>{phone}</span><span style={{float:"right"}}><a href={process.env.PUBLIC_URL+"/resume.pdf"} className="button" download>
-                            <i className="fa fa-download"/><span>Download Resume</span></a></span><br />
+                        <span>{phone}</span><br/>
                         <span>{email}</span><br />
                     </p>
 

@@ -1,19 +1,19 @@
 export let data = {
 main:{
     name: "James Rundle",
-        bio: "Hi " +
-    "I am " +
-    "James\n" +
-    "I like programming!\n" +
-    ` \n3 time semi-pro tummy-stick league champion, midwest division`,
+    bio: "Hi " +
+        "I am " +
+        "James Rundle,\n" +
+        "Chef/Pastry Chef turned programmer, \n" +
+        "I specialize in Java and React and have an interest in Arduinos/Raspberry Pi for hardware level coding",
 
         address:{
-        street: "123 Drury Lane",
-            city: "Seattle",
-            state: "Washington",
-            zip: "67460",
+        street: "361 Arlington Drive",
+            city: "Charleston",
+            state: "South Carolina",
+            zip: "29414",
     },
-    phone: "111-222-3333",
+    phone: "816-679-3017",
         email: "jamesamrundle@gmail.com",
         image: "./images/MYFACE.jpg",
 
@@ -40,23 +40,23 @@ resume:{
     ],
     jobs: [
         {
-            company: "Serta",
-            date: "2007 - 2015",
-            title: "Cheif Quaility Assurance Officer, Pillow Division",
-            description: "Rigourously testing pillows up to 10,000 successive face plants to ensure maximum integrity and analyze cool-side capacity thresholds"
+            company: "College of Charleston \n CIRDLES Research Lab",
+            date: "2018 - Current",
+            title: "Research Assistant",
+            description: "Lead development on react based application to generate dynamic Javascript in browser, that is then used our MARSx program"
         },
         {
-            company: "Lego",
-            date: "2017- current",
-            title: "Materials engineer",
-            description: "Used non-euclidian geometry, 6th dimensional cthonic sorcery and precalculus to increase foot-pain-infliction by .427 percent"
+            company: "Boeing",
+            date: "May-Aug 2018",
+            title: "Programmer Analyst Intern",
+            description: "Support and enrich a Commerical-Off-The-Shelf Software with patches, bugfixes and extensions. Coordinated efforts with multiple branches for implementation of App Dynamics to gain metrics on performance and scalability."
         }
     ],
     skills:[
-        {name:"Java Brewing",level:"60%"},
-        {name: "Python Charming", level:"55%"},
-        {name: "PHPhuck dat", level:"-70%"},
-        {name: "Spelling words comprised of the letter 'C'",level:"23%"},
+        {name:"Java",level:"60%"},
+        {name: "Python", level:"55%"},
+        {name: "React", level:"66%"},
+        {name: "C",level:"23%"},
         {name: "Confections and Sweet-craft", level:"80%"}
     ]
 }

@@ -195,8 +195,9 @@ ul#nav li.current a { color: #8bc34a; }
    padding-bottom: 66px;
    overflow: hidden;
 
+
 }
-#about .grid{
+#about div:first-child{
     display: grid;
     grid-template-columns:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 }
