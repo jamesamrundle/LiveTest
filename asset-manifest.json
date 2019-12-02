@@ -1,12 +1,12 @@
 {
-  "main.js": "/LiveTest/static/js/main.745acd4d.chunk.js",
-  "main.js.map": "/LiveTest/static/js/main.745acd4d.chunk.js.map",
+  "main.js": "/LiveTest/static/js/main.6f8989bd.chunk.js",
+  "main.js.map": "/LiveTest/static/js/main.6f8989bd.chunk.js.map",
   "runtime~main.js": "/LiveTest/static/js/runtime~main.5e2e7734.js",
   "runtime~main.js.map": "/LiveTest/static/js/runtime~main.5e2e7734.js.map",
-  "static/js/2.c39fed63.chunk.js": "/LiveTest/static/js/2.c39fed63.chunk.js",
-  "static/js/2.c39fed63.chunk.js.map": "/LiveTest/static/js/2.c39fed63.chunk.js.map",
+  "static/js/2.716abfda.chunk.js": "/LiveTest/static/js/2.716abfda.chunk.js",
+  "static/js/2.716abfda.chunk.js.map": "/LiveTest/static/js/2.716abfda.chunk.js.map",
   "index.html": "/LiveTest/index.html",
-  "precache-manifest.c050780c5ceea25846c0eeac89fbca9f.js": "/LiveTest/precache-manifest.c050780c5ceea25846c0eeac89fbca9f.js",
+  "precache-manifest.8154e150f598b0e09ebba50e2ace764a.js": "/LiveTest/precache-manifest.8154e150f598b0e09ebba50e2ace764a.js",
   "service-worker.js": "/LiveTest/service-worker.js",
   "static/media/MYFACE.jpg": "/LiveTest/static/media/MYFACE.8ae0461b.jpg"
 }
