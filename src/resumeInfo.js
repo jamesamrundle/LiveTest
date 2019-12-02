@@ -5,7 +5,7 @@ main:{
         "I am " +
         "James Rundle,\n" +
         "Chef/Pastry Chef turned programmer, \n" +
-        "I specialize in Java and React and have an interest in Arduinos/Raspberry Pi for hardware level coding",
+        "I specialize in Java, Python, and React and have an interest in Arduinos/Raspberry Pi for hardware level coding",
 
         address:{
         street: "5182 Cabanne Ave.",
