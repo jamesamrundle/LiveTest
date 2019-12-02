@@ -48,8 +48,14 @@ resume:{
     ],
     jobs: [
         {
+            company: "Boeing Defense and Space",
+            date: "May 2019-Current",
+            title: "Operational Analyst Intern",
+            description: "Develop a simulation of scenario involving Armed Forces and analyze performance using both statistical and observational methods.\nAssisted outside team during school year 2019-2020 on development of Automated Testing Environment using opensource software ."
+        },
+        {
             company: "College of Charleston \n CIRDLES Research Lab",
-            date: "2018 - Current",
+            date: "Oct 2018 - May 2019",
             title: "Research Assistant",
             description: "Lead development on react based application to generate dynamic Javascript in browser, that is then used our MARSx program"
         },
