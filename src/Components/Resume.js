@@ -11,7 +11,7 @@ class Resume  extends Component {
 
 
         education = () => {return this.props.data.education.map( (school) =>{
-            let didGraduate = school.complete === true ? "Graduated : " +school.year : "Anticipated Graduation : " + school.year
+            let didGraduate = school.complete === true ? "Graduated : " +school.year : school.complete === false ? "Anticipated Graduation : " + school.year : "Till :" +school.year
             return(
                 <div key={school.name} >
                     <h3>{school.name}</h3>
