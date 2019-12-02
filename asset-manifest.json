@@ -1,12 +1,12 @@
 {
-  "main.js": "/LiveTest/static/js/main.7e2b847c.chunk.js",
-  "main.js.map": "/LiveTest/static/js/main.7e2b847c.chunk.js.map",
+  "main.js": "/LiveTest/static/js/main.14d5bbe0.chunk.js",
+  "main.js.map": "/LiveTest/static/js/main.14d5bbe0.chunk.js.map",
   "runtime~main.js": "/LiveTest/static/js/runtime~main.5e2e7734.js",
   "runtime~main.js.map": "/LiveTest/static/js/runtime~main.5e2e7734.js.map",
   "static/js/2.716abfda.chunk.js": "/LiveTest/static/js/2.716abfda.chunk.js",
   "static/js/2.716abfda.chunk.js.map": "/LiveTest/static/js/2.716abfda.chunk.js.map",
   "index.html": "/LiveTest/index.html",
-  "precache-manifest.60f5caef1464a911bb5d4f090f5ab4e9.js": "/LiveTest/precache-manifest.60f5caef1464a911bb5d4f090f5ab4e9.js",
+  "precache-manifest.b1402391370f7ffd06fa77e0ad6113c1.js": "/LiveTest/precache-manifest.b1402391370f7ffd06fa77e0ad6113c1.js",
   "service-worker.js": "/LiveTest/service-worker.js",
   "static/media/MYFACE.jpg": "/LiveTest/static/media/MYFACE.8ae0461b.jpg"
 }
