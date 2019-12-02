@@ -35,7 +35,7 @@ resume:{
         name: "College of Charleston",
         degreeAndGpa: "Bachelors of Computer Science,  3.5 GPA  ",
         year: "2021",
-        complete:true,
+        complete:transfer,
         description: "As a non traditional student I secured a multiple Summer internship at Boeing during my first semester. In consequent semester I maintained active involvment and leadership in department clubs and was lead developer on the M^3 project in Dr. Bowrings research lab.  "
     },
         {
