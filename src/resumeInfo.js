@@ -8,22 +8,30 @@ main:{
         "I specialize in Java and React and have an interest in Arduinos/Raspberry Pi for hardware level coding",
 
         address:{
-        street: "361 Arlington Drive",
-            city: "Charleston",
-            state: "South Carolina",
-            zip: "29414",
+        street: "5182 Cabanne Ave.",
+            city: "St. Louis",
+            state: "Missouri",
+            zip: "63113",
     },
     phone: "816-679-3017",
         email: "jamesamrundle@gmail.com",
         image: "./images/MYFACE.jpg",
 
-        objective: "Interested in securing an internship in which I both leverage and expand my coding skills",
+        objective: "Interested in securing a challenging internship in which I leverage/expand my coding skills and exercise my creative problem-solving abilities",
         occupation: "Aspiring Software Developer"
 
 },
 resume:{
 
-    education: [{
+    education: [
+        {
+        name: "University of Missouri St. Louis",
+        degreeAndGpa: "Bachelors of Computer Science,  3.5 GPA  ",
+        year: "2020",
+        complete:false,
+        description: " Transfered to UMSL Fall '19 for an expedited graduation schedule, an offer for a part time continuation of Summer '19 internship during the school year, and a job market more inline with my career interests. "
+    },
+        {
         name: "College of Charleston",
         degreeAndGpa: "Bachelors of Computer Science,  3.5 GPA  ",
         year: "2021",
@@ -53,10 +61,10 @@ resume:{
         }
     ],
     skills:[
-        {name:"Java",level:"60%"},
-        {name: "Python", level:"55%"},
-        {name: "React", level:"66%"},
-        {name: "C",level:"23%"},
+        {name:"Java",level:"65%"},
+        {name: "Python", level:"70%"},
+        {name: "React", level:"60%"},
+        {name: "C",level:"43%"},
         {name: "Confections and Sweet-craft", level:"80%"}
     ]
 }
