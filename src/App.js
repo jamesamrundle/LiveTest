@@ -93,6 +93,8 @@ class App extends Component {
             .then(res => {
                 this.setState({ formEmailSent: true },
                     document.getElementById("contact-form").reset())
+            }).then(res => {
+                this.setState({error :"Thanks, Ill be in touch." })
             })
             // Handle errors here however you like, or use a React error boundary
             .catch(err => {
